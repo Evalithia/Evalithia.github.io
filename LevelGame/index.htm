@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title>The Level Game</title>
+
+<script type="text/javascript" src="script.js"></script>
+</head>
+<body onload="DisplayValues()">
+THE LEVEL GAME
+<br />
+<span  title="Your level. Increase this.">LVL: <label id="level"></label></span>
+<br />
+<span  title="Experience / To next level">EXP: NOT WORKING YET</span>
+<br />
+<br />
+<span  title="Health Points. These determine how alive you are.">HP: <label id="HP"></label>/<label id="maxHP"></label></span> 
+<span  title="Power Points. Special skills use these.">PP: <label id="PP"></label>/<label id="maxPP"></label></span>
+<br />
+<br />
+<span  title="Power + Attack. How much damage you do.">PWR: <label id="PWR"></label>+<label id="ATT"></label></span>
+<br />
+<span  title="Defence + Armor. How much damage you resist.">DEF: <label id="DEF"></label>+<label id="AMR"></label></span>
+<br />
+<span  title="Speed + Boost. How fast you attack and how often you dodge.">SPD: <label id="SPD"></label>+<label id="BST"></label></span>
+<br />
+<span  title="Dokens. How unlucky you are.">DKN: <label id="doken"></label></span>
+<br />
+<br />
+<input onclick="LevelUpTest()" type="button" value="TestLevelUp" id="TestLevelUp"/><input onclick="TestAddTesi()" type="button" value="TestAddTesi" id="TestAddTesi"/>
+<br />
+<input onclick="" type="button" value="Train" id="Button1"/>
+<input onclick="" type="button" value="BATTLE" id="Button2"/>
+<input onclick="Pay2Win()" type="button" value="Pay to Win (1 Tesi)" id="Pay2Win"/> <span  title="Currency. Use this to buy stuff.">Tesi: <label id="tesi"></label></span>
+<br />
+<label id="messages">Messages go here.</label>
+<br />
+<br />
+<span style="font-size:8px">Version 0.0000002</span>
+</body>
+</html>
