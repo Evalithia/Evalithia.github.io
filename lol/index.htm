@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title>Will AMD Deliver?</title>
+
+<script type="text/javascript" src="script.js"></script>
+
+    <style type="text/css">
+        body {
+            background-color: #222222;
+            background-repeat: no-repeat;
+            background-position: center top;
+            background-attachment: fixed;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+            color: #aaaaaa;
+            transform: translate(-50%, -50%);
+            position: absolute;
+            top: 50%;
+            left: 48.5%;
+            margin-right: -50%;
+            height: 25%;
+        }
+
+        img {
+            border: none;
+        }
+
+        a {
+            border: none;
+            color: #006dcf;
+            text-decoration: none;
+        }
+
+            a.rss {
+                border: none;
+                color: #222222;
+                text-decoration: none;
+            }
+
+            a:hover {
+                color: #0086ff;
+                text-decoration: underline;
+            }
+
+        td {
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body onload="launch()">
+<span style="font-size: 50px;"><strong>Will AMD Deliver?</strong></span>
+<br />
+<br />
+<table width="100%">
+<tr>
+    <td width="33%" style="text-align: left;"></td>
+    <td width="34%" style="text-align: center;"><input onclick="maybe()" type="button" value="Maybe?" id="Button1"/></td>
+    <td width="33%" style="text-align: right;"></td>
+</tr>
+</table>
+<br />
+<table width="100%">
+<tr>
+    <td width="20%" style="text-align: right;"><span  id="textyes" style="font-size: 15px; display: none;">Yes</span></td>
+    <td width="60%" style="text-align: right;"><span style="font-size: 25px; text-align: left;"><label id="yes"></label></span></td>
+    <td width="20%" style="text-align: right;"><span id="percent1" style="font-size: 15px; text-align: right; display: none;"><label id="pcty"></label>%</span></td>
+</tr>
+<tr>
+    <td style="text-align: right;"><span  id="textno" style="font-size: 15px; text-align: left; display: none;">No</span></td>
+    <td style="text-align: right;"><span style="font-size: 25px; text-align: left;"><label id="no"></label></span></td>
+    <td style="text-align: right;"><span id="percent2" style="font-size: 15px; text-align: right; display: none;"><label id="pctn"></label>%</span></td>
+</tr></table>
+
+</body>
+</html>
