@@ -2,6 +2,7 @@ var yes = 0;
 var no = 0;
 var pcty = 0;
 var pctn = 0;
+var count = 0;
 
 function launch() {
     yes = Math.floor((Math.random()*11+90));
@@ -34,6 +35,37 @@ function maybe() {
     no = no + Math.ceil((Math.random() * .1 *  no + 1));
     pcty = ((yes / (yes+no)) * 100).toFixed(2);
     pctn = ((no / (yes+no)) * 100).toFixed(2);
+    count++;
     showText();
     displayValues();
+    if (count==50) {
+        crazy();
+    }
+}
+
+function crazy() {
+    var s = document.getElementById('spammer');
+    var c = document.getElementById('crazy');
+    if (s.style.display === "none" || c.style.display === "none") {
+        s.style.display = "inline";
+        c.style.display = "inline";
+      }
+}
+
+function goCrazy() {
+    var s = document.getElementById('spammer');
+    var c = document.getElementById('crazy');
+    if (s.style.display === "inline" || c.style.display === "inline") {
+        s.style.display = "none";
+        c.style.display = "none";
+      }    
+    (function loop(i) {
+        setTimeout(function () {
+            maybe();
+            if (--i){
+                loop(i);
+            }
+        }, 10);
+        
+    })(500);
 }
