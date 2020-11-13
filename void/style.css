@@ -1,0 +1,98 @@
+body {
+    background-color: #222225;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #aaaaaa;
+    /*transform: translate(-50%, -50%);
+    position: absolute;
+    top: 40%;
+    left: 38.5%;
+    margin-right: 30%;*/
+    height: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top:10%;
+}
+
+img {
+    border: none;
+}
+
+a {
+    border: none;
+    color: #006dcf;
+    text-decoration: none;
+}
+
+    a.rss {
+        border: none;
+        color: #222222;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: #0086ff;
+        text-decoration: underline;
+    }
+
+td {
+    vertical-align: middle;
+}
+.scroll {
+    padding:5px;
+    border: 1px solid #88888F;
+    border-bottom: 1px dashed;
+    background-color: #262629;
+    min-width: 100%;
+    width: 100%;
+    max-width: 100%;
+    min-height: 500px;
+    max-height: 500px;
+    overflow-y: auto;
+    overflow-wrap: break-word;
+    display: inline-block;
+    vertical-align: bottom;
+    position: relative;
+}
+.input {
+    padding:5px;
+    border: 1px solid #88888F;
+    background-color: #262629;
+    border-top: 0px;
+    min-width: 100%;
+    width: 100%;
+    max-width: 100%;
+}
+.input:after {
+    content: '';
+    clear: both;
+    display: table;
+}
+.textBox {
+    width: 100%;
+    width: calc(100% - 60px);
+    background: #262629;
+    border: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #aaaaaa;
+}
+.button {
+    border-radius: 5px;
+    border: 1px solid;
+    background: #aaaaaa;
+    color: #262629;
+}
+.title {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.messageText {
+    position: absolute;
+    bottom: 0;
+}
