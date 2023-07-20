@@ -1,0 +1,39 @@
+body {
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9px;
+    color: #222222;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 48.5%;
+    margin-right: -50%;
+}
+
+img {
+    border: none;
+}
+
+a {
+    border: none;
+    color: #006dcf;
+    text-decoration: none;
+}
+
+    a.rss {
+        border: none;
+        color: #222222;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: #0086ff;
+        text-decoration: underline;
+    }
+
+td {
+    vertical-align: middle;
+}

@@ -1,0 +1,42 @@
+body {
+    background-size:cover;
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    font-family: 'Rubik', sans-serif;
+    color: #fff;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 45%;
+    left: 38.5%;
+    margin-right: -50%;
+    -webkit-text-stroke: 1.5px black;
+    text-shadow: 0px 0px 4px black;
+    letter-spacing: -1px;
+}
+
+img {
+    border: none;
+}
+
+a {
+    border: none;
+    color: #00aaff;
+    text-decoration: none;
+}
+
+    a.rss {
+        border: none;
+        color: #222222;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: #00ccff;
+        text-decoration: none;
+    }
+
+td {
+    vertical-align: middle;
+}
